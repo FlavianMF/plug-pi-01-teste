@@ -2,6 +2,7 @@
 #define __SETUPFUNCTIONS_H__
 
 #include <Arduino.h>
+#include <EasyBuzzer.h>
 
 #include "pins.h"
 
@@ -13,5 +14,7 @@ void setupPins() {
   pinMode(buzzerPin, OUTPUT);
   pinMode(ldrPin, INPUT);
 }
+
+void setupBuzzer() { EasyBuzzer.setPin(buzzerPin); }
 
 #endif  // __SETUPFUNCTIONS_H__
