@@ -4,11 +4,12 @@
 #include "buzzerFrequencies.h"
 #include "pins.h"
 #include "setupFunctions.h"
+#include "setupSteps.h"
 
 void setup() {
   Serial.begin(115200);
   setupPins();
-  setupBuzzer();
+  steps();
 }
 
 void loop() {}
