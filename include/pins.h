@@ -1,6 +1,11 @@
+#ifndef __PINS_H__
+#define __PINS_H__
+
 #define greenLedPin 9
 #define redLedPin 5
 #define yellowLedPin 10
 
 #define buzzerPin 13
 #define ldrPin 18
+
+#endif  // __PINS_H__

@@ -1,7 +1,12 @@
 #include <Arduino.h>
 
+#include "buzzerFrequencies.h"
 #include "pins.h"
+#include "setupFunctions.h"
 
-void setup() {}
+void setup() {
+  Serial.begin(115200);
+  setupPins();
+}
 
 void loop() {}
