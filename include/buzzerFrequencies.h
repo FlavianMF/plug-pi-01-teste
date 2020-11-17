@@ -1,8 +1,8 @@
 #ifndef __BUZZERFREQUENCIES_H__
 #define __BUZZERFREQUENCIES_H__
 
-#define greenFrequency 1000
-#define yellowFrequency 1500
-#define redFrequency 200
+#define greenFrequency 261
+#define yellowFrequency 293
+#define redFrequency 329
 
 #endif  // __BUZZERFREQUENCIES_H__
